@@ -22,7 +22,7 @@ function calculatePhoneCost() {
       phoneCost[i] = phoneCost[i] + (phoneCost[i] * TAX_RATE);
       totalPhoneCost = totalPhoneCost + phoneCost[i];
       if (phoneCost[i] > SPENDING_THRESHOLD || totalPhoneCost > SPENDING_THRESHOLD) {
-        console.log("You can't buy this because the Threshold you've setted it too low!");
+        console.log("You can't buy this because the Threshold you've setted is too low!");
         break;
       } else {
         bankAccount = bankAccount - phoneCost[i];
