@@ -7,6 +7,17 @@ input {
 }
 
 #result {
-  width: 200px;
+  width: auto;
   background-color: antiquewhite;
+}
+p {
+  display: table;
+  margin-bottom: 2px;
+  padding: 0 15px 0 5px;
+}
+.element_property {
+  color: red;
+}
+.element_name_origin {
+  font-style: italic;
 }

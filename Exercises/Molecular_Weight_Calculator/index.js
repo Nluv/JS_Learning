@@ -137,11 +137,8 @@ function requestObject(number, name, symbol, atomic_weight, name_origin, density
 
 function printRequestedElement(id) {
   if (id > 0 && id < elements.length) {
-    // console.log(elements[id]);
     return elements[id];
   } else {
-    console.log(`${id} is not a valid value!! Please insert a number between 1 and 118!`);
+    return `${id} is not a valid value!! Please insert a number between 1 and 118!`;
   }
 }
-// var request = prompt("Quale elemento vuoi cercare? (Esprimi il numero sulla tavola periodica)");
-// printRequestedElement(request);
