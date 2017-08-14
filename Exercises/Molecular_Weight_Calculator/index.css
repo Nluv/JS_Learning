@@ -2,19 +2,35 @@ body {
   margin-left: 2%;
 }
 
+#elements_search_form {
+  margin: 2% 10% 0 0;
+  display: inline-block;
+}
+label {
+  display: block;
+}
 input {
-  margin: 2% .3% 2% .3%;
+  margin-bottom: 2%;
+}
+.search_field {
+  width: 500px;
+  display: block;
+}
+.important_text {
+  color: #D91E18;
 }
 
-#result {
-  width: auto;
-  background-color: antiquewhite;
-}
 p {
   display: table;
-  margin-bottom: 2px;
+  margin-bottom: 0;
   padding: 0 15px 0 5px;
 }
+
+p:first-child {
+  margin-top: 35px;
+}
+
+
 .element_property {
   color: red;
 }
